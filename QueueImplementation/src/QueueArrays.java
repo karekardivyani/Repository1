@@ -14,6 +14,8 @@ public class QueueArrays implements QueueInterface{
 		 len=0;
 		 
 	 }
+	 
+	 
 	 public boolean IsEmpty()
 	 {
 		 return front == -1;

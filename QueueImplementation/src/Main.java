@@ -6,6 +6,7 @@ public class Main {
 		 QueueInterface QArray= new QueueArrays();
 		 QueueInterface QArray1= new QueueArrayList();
 		
+		 
 		System.out.println("Queue Using Array");
 		QArray.Enqueue(10);
 		QArray.Enqueue(20);

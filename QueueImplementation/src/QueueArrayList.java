@@ -10,8 +10,7 @@ public class QueueArrayList implements  QueueInterface{
 		System.out.println("Enqueued Element: "+data);
 		
 	}
-	
-
+	   
 	@Override
 	public void Dequeue() {
 		// TODO Auto-generated method stub
