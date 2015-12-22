@@ -7,13 +7,15 @@ public class QueueArrayList implements  QueueInterface{
 	public void Enqueue(int data) {
 		// TODO Auto-generated method stub
 		QArray.add(data);
+		System.out.println("Enqueued Element: "+data);
 		
 	}
 
 	@Override
 	public void Dequeue() {
 		// TODO Auto-generated method stub
-		 QArray.remove(0);
+		/* QArray.remove(0);*/
+		 System.out.println("Dequeued Element: "+QArray.remove(0));
 		
 	}
 
