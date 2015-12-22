@@ -19,6 +19,6 @@ public class QueueArrayList {
 	}
 	public void display()
 	{
-		System.out.println(QArray);
+		System.out.println("Queue= "+QArray);
 	}
 }
