@@ -21,7 +21,7 @@ public class Main {
 		QArray1.Enqueue(30);
 		/*QArray.Enqueue(70);*/
 		QArray1.Dequeue();
-		QArray1.Display();
+		QArray1.Display();    
 	}
 	
 }
