@@ -69,5 +69,8 @@ public class QueueArrays {
 	            System.out.print(queue[i]+" ");
 	        System.out.println();        
 	    }
-
+  
+	 
+	 
+	 
 }
