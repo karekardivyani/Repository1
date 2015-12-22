@@ -3,9 +3,9 @@ public class QueueArrays {
  int queue[];
  int front,rear,size,len;
  
- public QueueArrays(int n)
+ public QueueArrays()
  {
-	 size=n;
+	 size=4;
 	 queue=new int[size];
 	 front=-1;
 	 rear=-1;
@@ -29,10 +29,11 @@ public class QueueArrays {
             rear = 0;
             queue[rear] = data;
         }
-        else if (rear + 1 >= size)
+        else if (IsFull())
             throw new IndexOutOfBoundsException("Overflow Exception");
         else if ( rear + 1 < size)
             queue[++rear] = data; 
+		System.out.println("Enqued element: " +queue[rear]);
 	        
 	        len++ ;
 	}
@@ -45,6 +46,7 @@ public class QueueArrays {
 	        {
 	        	len--;
 	            int data = queue[front];
+	            System.out.println("The Dequed Element is "+data);
 	            if ( front == rear) 
 	            {
 	                front = -1;
